@@ -8,7 +8,7 @@ The trained model is integrated into a Flask web application where users can upl
 
 ---
 
-## Technologies Used
+## Technologies Used 
 
 Python  
 TensorFlow / Keras  
