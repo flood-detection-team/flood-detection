@@ -2,3 +2,4 @@ FloodDataset/
 *.h5
 __pycache__/
 .ipynb_checkpoints
+.idea/
