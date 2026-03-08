@@ -1,38 +1,71 @@
-# FloodDetection
+# Flood Detection from Satellite Imagery using Deep Learning
 
-This project named as FloodDetection,used to detect flood from satellite images, is a web app.
+## Overview
+This project detects flooded areas from satellite images using Deep Learning.  
+A Convolutional Neural Network (CNN) with Transfer Learning is used to classify whether a satellite image shows a flooded or non-flooded area.
 
+The trained model is integrated into a Flask web application where users can upload an image and get a prediction.
 
+---
 
+## Technologies Used
 
-# Environment Setup
+Python  
+TensorFlow / Keras  
+OpenCV  
+NumPy  
+Pandas  
+Matplotlib  
+Scikit-learn  
+Flask  
+HTML  
+CSS  
 
-Make sure Anaconda is installed and launch anaconda prompt and navigate to root directory in the anaconda prompt
+---
 
-create venv
+## Project Structure
 
-```shell
-conda create -n "FloodDetection" python=3.10
-```
+FloodDetection
 
-Activate
+app.py – Flask web application  
+model – trained model folder  
+notebook – training notebook  
+templates – HTML files  
+static – CSS, images and loading icons  
+requirements.txt  
+Procfile  
 
-```shell
-conda activate FloodDetection
-```
+---
 
-In order to set your environment up to run the code here, first install all requirements:
+## Dataset
 
-```shell
+The dataset contains satellite images of flooded and non-flooded regions.
+
+The dataset is not included in this repository because of GitHub file size limits.
+
+---
+
+## How to Run
+
+Clone the repository
+
+git clone https://github.com/aisiri14/flood-detection.git
+
+Install dependencies
+
 pip install -r requirements.txt
-```
 
-run the app.py file 
+Run the application
 
-```shell
 python app.py
-```
 
-Once you see this url - http://127.0.0.1:8080/ in logs, open it in browser.
+Open in browser
 
-Now your setup is ready.
+http://127.0.0.1:5000
+
+---
+
+## Author
+
+Aisiri M R  
+Computer Science Student
