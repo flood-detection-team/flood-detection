@@ -61,7 +61,7 @@ python app.py
 
 Open in the browser
 
-http://127.0.0.1:5000
+
 
 ---
 
@@ -70,6 +70,5 @@ http://127.0.0.1:5000
 - Aisiri M R
 - B Sai Charan
 - B Vijay
-- G Neha
-
+- G Neha
 - B Sai Akhil
