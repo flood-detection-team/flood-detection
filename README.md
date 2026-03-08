@@ -65,7 +65,10 @@ http://127.0.0.1:5000
 
 ---
 
-## Author
+## Authors
 
-Aisiri M R  
-Computer Science Student
+- Aisiri M R
+- B Sai Charan
+- B Vijay
+- G Neha
+- B Sai Akhil
